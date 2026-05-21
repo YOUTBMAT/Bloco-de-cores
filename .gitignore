@@ -1,10 +1,20 @@
+# --- Temp and Build Directories ---
+.window_positions.xml
+applet/
+bin/
+out/
+
+# Processing 4+ hidden build folder (Onde o Processing joga os códigos compilados)
+.sketchpad/
+
+# --- Exported Applications ---
+# Ignora quando você exporta o projeto como um executável para outras pessoas testarem
+application.windows32/
+application.windows64/
+application.linux32/
+application.linux64/
+application.macosx/
+
+# --- Operating System Files ---
 .DS_Store
-applet
-application.linux-arm64
-application.linux-armv6hf
-application.linux32
-application.linux64
-application.windows32
-application.windows64
-application.macosx
-out
+Thumbs.db
